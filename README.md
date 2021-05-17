@@ -27,19 +27,35 @@ Abaixo seleciono as variáveis que vou trabalhar e importo o banco de dados do m
 *Variáveis Selecionadas:*
 
 Ano no Enem:'NU_ANO'
+
 Número de Inscrição:'NU_INSCRICAO'
+
 Código do Município de Residência: 'CO_MUNICIPIO_RESIDENCIA'
+
 Nome do Município de Residência:'NO_MUNICIPIO_RESIDENCIA'
+
 UF de Residência: 'SG_UF_RESIDENCIA'
+
 Tipo de Escola: 'TP_ESCOLA'
+
 Codigo do Municipio da Escola: 'CO_MUNICIPIO_ESC'
+
 Código da Escola: 'CO_ESCOLA'
+
 Tipo de Dependência Escolar:'TP_DEPENDENCIA_ADM_ESC'
+
 Tipo de Localização Escolar: 'TP_LOCALIZACAO_ESC'
+
 Raça: 'TP_COR_RACA'
+
 Notas no Enem:'NU_NOTA_CN', 'NU_NOTA_CH', 'NU_NOTA_MT', 'NU_NOTA_REDACAO', 'NU_NOTA_LC', 'TP_LINGUA'
+
 Nível de Formação dos pais: 'Q001', 'Q002'
+
 Tipo de Ocupação dos pais; 'Q003', 'Q004'
+
 Renda Familiar: 'Q005'
+
 Número de pessoas na casa:'Q006'
+
 Acesso a tecnologias (Celular, Computador, Internet):'Q023', 'Q024', 'Q025'
