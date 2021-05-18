@@ -17,7 +17,7 @@ Avaliar a relação dos fatores abaixo com o desempenho no Enem:
 
 **Seleção dos Dados**
 
-Os micro dados do ENEM [pode ser Baixado aqui](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados) pode ser baixaidos no site do INEP. O banco de dados 'Microdados do Enem' é muito grande, preciso selecionar previamente com quais variáveis desejo trabalhar, ou não consigo abri-lo.
+Os micro dados do ENEM pode ser baixado no site do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados). O banco de dados 'Microdados do Enem' é muito grande, preciso selecionar previamente com quais variáveis desejo trabalhar, ou não consigo abri-lo.
 
 Para selecionar as variáveis previamente, consultei os nomes das colunas, importando o banco de dados e usando o argumento nrows=0, e consultando a pasta Dicionário, no arquivo Dicionário_Microdados_Enem_2019.xlsx no meu github para entender melhor o significado de cada variável.
 
