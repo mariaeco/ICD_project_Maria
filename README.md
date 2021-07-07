@@ -4,8 +4,8 @@
 Autora: Maria Marcolina Lima Cardoso
 
 Versão 1.0 de 07/07/2021
-\
-\
+
+
 **INTRODUÇÃO**
  
  
@@ -47,16 +47,16 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
 	
    Dois produtos finais são gerados a partir deste notebook:
    
-   i) o banco de dados geral da Paraíba de 1998 a 2019 (Banco de dados grande, e não possível de carregar no github pela conta Free):
-     	[ENEM_PB_1998_2019.csv](https://drive.google.com/file/d/1ZV0He8T_cFMidQScQvrVtRBT_70uPnFa/view?usp=sharing)
-	
-   ii) o banco de dados com a média dos fatores por escola de 1998 a 2019 (Mais leve e utilizado para nossas análises nos demais notebooks):
-        [ENEM_POR_ESCOLA_PB_1998-2019.zip](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/DADOS/ENEM_POR_ESCOLA_PB_1998-2019.zip)
-		
-   iii) Utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
-       [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
-    
-    
+	   i) o banco de dados geral da Paraíba de 1998 a 2019 (Banco de dados grande, e não possível de carregar no github pela conta Free):
+		[ENEM_PB_1998_2019.csv](https://drive.google.com/file/d/1ZV0He8T_cFMidQScQvrVtRBT_70uPnFa/view?usp=sharing)
+
+	   ii) o banco de dados com a média dos fatores por escola de 1998 a 2019 (Mais leve e utilizado para nossas análises nos demais notebooks):
+		[ENEM_POR_ESCOLA_PB_1998-2019.zip](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/DADOS/ENEM_POR_ESCOLA_PB_1998-2019.zip)
+
+	   iii) Utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
+	       [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
+
+
 **EXPLORAÇÕES DOS DADOS**
 
 
