@@ -1,16 +1,13 @@
-**Título: "Enem na Paraíba de 1998 a 2019"**
-
+**TÍTULO: "ENEM NA PARAÍBA DE 1998 A 2019"**
 Autora: Maria Marcolina Lima Cardoso
+Versão 1.0 de 07/07/2021
 
+**INTRODUÇÃO**
+ 
 
+**OBJETIVO GERAL:**
 
-**Introdução**
-   
-
-**Objetivo geral:**
-
-   Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil    para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
-
+   Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
 
 **Objetivos Específicos:**
   
@@ -21,63 +18,31 @@ Autora: Maria Marcolina Lima Cardoso
    - Tentar predizer os aspectos mais importantes para a melhoria das notas.
  
 
-**Seleção e Criação dos Bancos de Dados Utilizados**
+**SELEÇÃO E CRIAÇÃO DOS BANCOS DE DADOS UTILIZADOS**
 
   Para este projeto, nós baixamos os microdados do Enem fornecidos pelo site do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados).
 Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano contém a planilha em .csv com os dados e uma planilha com os dicionários das variáveis.
 					
   Após baixarmos, nós seguimos os seguintes passos:
 					
-  1) Separação dos dados referentes a Paraíba, contido no notebook abaixo:
-     [ProjetoICD_Separacao_dados_PB.ipynb] (https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Separacao_dados_PB.ipynb)
+  *1) Separação dos dados referentes a Paraíba, contido no notebook abaixo:*
+     [ProjetoICD_Separacao_dados_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Separacao_dados_PB.ipynb)
 										
-  2) Seleção e renomeação e organização de variáveis, limpeza e definição dos tipos das variáveis, e junção dos dados em um único arquivo:
+  *2) Seleção e renomeação e organização de variáveis, limpeza e definição dos tipos das variáveis, e junção dos dados em um único arquivo:*
      [ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb)
-					
-  3) 
+	
+   Algumas organizações e limpezas relazidas: Os dados das esdições do Enem estão com nomes, tipos e níveis de variáveis despadronizados, valores digitados errado, como nomes de Escola e Município, notas também despadronizadas (alguns anos a nota vai de 0 a 100, em outros de 0 a 1000). Muitos anos constam nota 0 para alunos faltantes, portanto, mudamos para NaN, uma vez que a presença de zeros baixa a média geral das notas.
+	
+   Dois produtos finais são gerados a partir deste notebook:
+   i) o banco de dados geral da Paraíba de 1998 a 2019 (Banco de dados grande, e não possível de carregar no github pela conta Free):
+     	[ENEM_PB_1998_2019.csv](https://drive.google.com/file/d/1ZV0He8T_cFMidQScQvrVtRBT_70uPnFa/view?usp=sharing)
+	
+   ii) o banco de dados com a média dos fatores por escola de 1998 a 2019 (Mais leve e utilizado para nossas análises nos demais notebooks):
+        [ENEM_POR_ESCOLA_PB_1998-2019.zip](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/DADOS/ENEM_POR_ESCOLA_PB_1998-2019.zip)
+		
+   iii) Utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
+       [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
     
+**EXPLORAÇÕES DOS DADOS**
 
 
-Os micro dados do ENEM pode ser baixado no site do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados). O banco de dados 'Microdados do Enem' é muito grande, preciso selecionar previamente com quais variáveis desejo trabalhar, ou não consigo abri-lo.
-
-Para selecionar as variáveis previamente, consultei os nomes das colunas, importando o banco de dados e usando o argumento nrows=0, e consultando a pasta Dicionário, no arquivo Dicionário_Microdados_Enem_2019.xlsx no meu github para entender melhor o significado de cada variável.
-
-O Banco de Dados selecionado, os dicionários e demais arquivos necessários são encontrados no meu git hub.
-
-Abaixo seleciono as variáveis que vou trabalhar e importo o banco de dados do meu Drive. Ao selecionar, fiz o download apenas do banco de dados e salvei no meu GitHub para outros terem acesso.
-
-*Variáveis Selecionadas:*
-
-Ano no Enem:'NU_ANO'
-
-Número de Inscrição:'NU_INSCRICAO'
-
-Código do Município de Residência: 'CO_MUNICIPIO_RESIDENCIA'
-
-Nome do Município de Residência:'NO_MUNICIPIO_RESIDENCIA'
-
-UF de Residência: 'SG_UF_RESIDENCIA'
-
-Tipo de Escola: 'TP_ESCOLA'
-
-Codigo do Municipio da Escola: 'CO_MUNICIPIO_ESC'
-
-Código da Escola: 'CO_ESCOLA'
-
-Tipo de Dependência Escolar:'TP_DEPENDENCIA_ADM_ESC'
-
-Tipo de Localização Escolar: 'TP_LOCALIZACAO_ESC'
-
-Raça: 'TP_COR_RACA'
-
-Notas no Enem:'NU_NOTA_CN', 'NU_NOTA_CH', 'NU_NOTA_MT', 'NU_NOTA_REDACAO', 'NU_NOTA_LC', 'TP_LINGUA'
-
-Nível de Formação dos pais: 'Q001', 'Q002'
-
-Tipo de Ocupação dos pais; 'Q003', 'Q004'
-
-Renda Familiar: 'Q005'
-
-Número de pessoas na casa:'Q006'
-
-Acesso a tecnologias (Celular, Computador, Internet):'Q023', 'Q024', 'Q025'
