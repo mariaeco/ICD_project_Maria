@@ -1,5 +1,7 @@
 **Título: "Enem na Paraíba de 1998 a 2019"**
 
+Autora: Maria Marcolina Lima Cardoso
+
 
 ##**Objetivo geral:**
 
