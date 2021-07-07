@@ -1,6 +1,10 @@
-#**Título: "Efeito das diferenças socioeconômicas sobre as notas do Enem na Paraíba"**
+**Título: "Enem na Paraíba de 1998 a 2019"**
+
+
 ##**Objetivo geral:**
-Avaliar o perfil socioeconômico dos Estudantes na Paraíba e seus efeitos sobre o desempenho no Exame Nacional de Ensino Médio
+
+Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
+
 
 ###**Objetivos Específicos:**
 Avaliar a relação dos fatores abaixo com o desempenho no Enem:
