@@ -4,8 +4,8 @@
 Autora: Maria Marcolina Lima Cardoso
 
 Versão 1.0 de 07/07/2021
-
-
+\
+\
 **INTRODUÇÃO**
  
  
@@ -20,7 +20,7 @@ Versão 1.0 de 07/07/2021
 
 **Objetivos Específicos:**
   
-  
+  \
    - Descrever o perfil dos inscritos no Enem (Sexo, Raça, Tipo de Escola, e aspectos socioecômicos, como renda, número de pessoas na casa, bens tecnológicos).
    - Descrever o perfil dos faltantes
    - Descrever as médias gerais e por componentes curriculares (Linguagens, Ciências Humanas, Ciências da Natureza, Matemática e Redação).
@@ -46,6 +46,7 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
    Algumas organizações e limpezas relazidas: Os dados das esdições do Enem estão com nomes, tipos e níveis de variáveis despadronizados, valores digitados errado, como nomes de Escola e Município, notas também despadronizadas (alguns anos a nota vai de 0 a 100, em outros de 0 a 1000). Muitos anos constam nota 0 para alunos faltantes, portanto, mudamos para NaN, uma vez que a presença de zeros baixa a média geral das notas.
 	
    Dois produtos finais são gerados a partir deste notebook:
+   
    i) o banco de dados geral da Paraíba de 1998 a 2019 (Banco de dados grande, e não possível de carregar no github pela conta Free):
      	[ENEM_PB_1998_2019.csv](https://drive.google.com/file/d/1ZV0He8T_cFMidQScQvrVtRBT_70uPnFa/view?usp=sharing)
 	
