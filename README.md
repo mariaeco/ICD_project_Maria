@@ -3,23 +3,20 @@
 Autora: Maria Marcolina Lima Cardoso
 
 
+**Introdução**
+
 ##**Objetivo geral:**
 
 Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
 
 
 ###**Objetivos Específicos:**
-Avaliar a relação dos fatores abaixo com o desempenho no Enem:
+  - Descrever o perfil dos inscritos no Enem (Sexo, Raça, Tipo de Escola, e aspectos socioecômicos, como renda, número de pessoas na casa, bens tecnológicos).
+  - Descrever o perfil dos faltantes
+  - Descrever as médias gerais e por componentes curriculares (Linguagens, Ciências Humanas, Ciências da Natureza, Matemática e Redação).
+  - Relacionar as Médias as variaveis de perfil sócio-econômico.
+  - Tentar predizer os aspectos mais importantes para a melhoria das notas.
 
--tipo de escola (privada, particular)
--tipo de dependência admnistrativa (Federal, Estadual, Municipal, Privada)
--cor/raça
--tipo de localização (Rural, Urbana)
--escolaridade dos pais
--tipo de ocupação dos pais
--renda familiar
--numero de pessoas na casa
--acesso a celular, computador e internet
 
 **Seleção dos Dados**
 
