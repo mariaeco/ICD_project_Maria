@@ -7,34 +7,34 @@ Autora: Maria Marcolina Lima Cardoso
 **Introdução**
    
 
-  **Objetivo geral:**
+**Objetivo geral:**
 
-    Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil    para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
+   Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil    para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
 
 
-  **Objetivos Específicos:**
+**Objetivos Específicos:**
   
-       - Descrever o perfil dos inscritos no Enem (Sexo, Raça, Tipo de Escola, e aspectos socioecômicos, como renda, número de pessoas na casa, bens tecnológicos).
-       - Descrever o perfil dos faltantes
-       - Descrever as médias gerais e por componentes curriculares (Linguagens, Ciências Humanas, Ciências da Natureza, Matemática e Redação).
-       - Relacionar as Médias as variaveis de perfil sócio-econômico.
-       - Tentar predizer os aspectos mais importantes para a melhoria das notas.
+   - Descrever o perfil dos inscritos no Enem (Sexo, Raça, Tipo de Escola, e aspectos socioecômicos, como renda, número de pessoas na casa, bens tecnológicos).
+   - Descrever o perfil dos faltantes
+   - Descrever as médias gerais e por componentes curriculares (Linguagens, Ciências Humanas, Ciências da Natureza, Matemática e Redação).
+   - Relacionar as Médias as variaveis de perfil sócio-econômico.
+   - Tentar predizer os aspectos mais importantes para a melhoria das notas.
  
 
 **Seleção e Criação dos Bancos de Dados Utilizados**
 
-     Para este projeto, nós baixamos os microdados do Enem fornecidos pelo site do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados).
-     Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano contém a planilha em .csv com os dados e uma planilha com os dicionários das variáveis.
+  Para este projeto, nós baixamos os microdados do Enem fornecidos pelo site do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados).
+Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano contém a planilha em .csv com os dados e uma planilha com os dicionários das variáveis.
 					
-					Após baixarmos, nós seguimos os seguintes passos:
+  Após baixarmos, nós seguimos os seguintes passos:
 					
-					1) Separação dos dados referentes a Paraíba, contido no notebook abaixo:
-									 [ProjetoICD_Separacao_dados_PB.ipynb] (https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Separacao_dados_PB.ipynb)
+  1) Separação dos dados referentes a Paraíba, contido no notebook abaixo:
+     [ProjetoICD_Separacao_dados_PB.ipynb] (https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Separacao_dados_PB.ipynb)
 										
-					2) Seleção e renomeação e organização de variáveis, limpeza e definição dos tipos das variáveis, e junção dos dados em um único arquivo:
-					[ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb)
+  2) Seleção e renomeação e organização de variáveis, limpeza e definição dos tipos das variáveis, e junção dos dados em um único arquivo:
+     [ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb)
 					
-					3) 
+  3) 
     
 
 
