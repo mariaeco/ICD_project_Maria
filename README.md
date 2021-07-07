@@ -15,7 +15,7 @@ Versão 1.0 de 07/07/2021
 **OBJETIVO GERAL:**
 
 
-   Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
+   Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil para gestores com o consolidado das notas e do perfil do alunado por Município e Escola, para futura produção de um APP com os dados do Enem.
    
 
 **Objetivos Específicos:**
@@ -52,7 +52,7 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
    - Adicionalmente, utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
 	       [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
 	
- *Dois produtos finais são gerados a partir deste notebook:*
+ *Dois produtos finais são gerados a partir deste notebook ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb:*
    
    - o banco de dados geral da Paraíba de 1998 a 2019 (Banco de dados grande, e não possível de carregar no github pela conta Free):
 		[ENEM_PB_1998_2019.csv](https://drive.google.com/file/d/1ZV0He8T_cFMidQScQvrVtRBT_70uPnFa/view?usp=sharing)
@@ -62,9 +62,23 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
 
 
 
-
+\
 **EXPLORAÇÕES DOS DADOS**
 
+Os arquivos de exploração dos dados foram divididos em 5:
+
+- [ProjetoICD_ExploracaoInicial.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_ExploracaoInicial.ipynb)
+	Notebook de explorações iniciais, para entender o aspecto geral dos dados. 	
+- [Perfil_Inscricoes_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Perfil_Inscricoes_PB.ipynb)
+	Notebook com o perfil dos inscritos no Enem, na Paraíba, de 1998 a 2019.
+- [PerfilDesempenho_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/PerfilDesempenho_PB.ipynb)
+	Notebook com o desempenho geral dos estudantes da Paraíba nas edições do Enem de 1998 a 2019.
+- [Mapa_Media_Municipio.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Mapa_Media_Municipio.ipynb)
+	Notebook com o mapa da Paraíba, mostrando a média geral por município de acordo com o padrão de coloração.
+- [Desempenho_MUNICIPIO_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Desempenho_MUNICIPIO_PB.ipynb)
+	Neste notebook, o observador pode escolher um Município e gerar todos os gráficos de perfil de Inscrição e Desempenho para o Município.
+- [Desempenho_ESCOLA_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Desempenho_ESCOLA_PB.ipynb)
+	Neste notebook, o observador pode escolher uma Escola e gerar todos os gráficos de perfil de Inscrição e Desempenho para a Escola.
 
 
 
