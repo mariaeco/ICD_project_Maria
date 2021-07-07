@@ -1,15 +1,25 @@
 **TÍTULO: "ENEM NA PARAÍBA DE 1998 A 2019"**
+
+
 Autora: Maria Marcolina Lima Cardoso
+
 Versão 1.0 de 07/07/2021
 
+
 **INTRODUÇÃO**
+ 
+ 
+ 
  
 
 **OBJETIVO GERAL:**
 
+
    Analisar o desempenho dos estudantes da Paraíba entre os anos de 1998 a 2019, relacionar com o perfil sócio-econômico e desenvolver um arquivo de acesso fácil para gestores com o consolidado das notas e do perfil do alunado por Município e Escola.
+   
 
 **Objetivos Específicos:**
+  
   
    - Descrever o perfil dos inscritos no Enem (Sexo, Raça, Tipo de Escola, e aspectos socioecômicos, como renda, número de pessoas na casa, bens tecnológicos).
    - Descrever o perfil dos faltantes
@@ -17,8 +27,10 @@ Versão 1.0 de 07/07/2021
    - Relacionar as Médias as variaveis de perfil sócio-econômico.
    - Tentar predizer os aspectos mais importantes para a melhoria das notas.
  
+ 
 
 **SELEÇÃO E CRIAÇÃO DOS BANCOS DE DADOS UTILIZADOS**
+
 
   Para este projeto, nós baixamos os microdados do Enem fornecidos pelo site do [INEP](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados).
 Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano contém a planilha em .csv com os dados e uma planilha com os dicionários das variáveis.
@@ -43,6 +55,9 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
    iii) Utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
        [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
     
+    
 **EXPLORAÇÕES DOS DADOS**
+
+
 
 
