@@ -70,15 +70,15 @@ Os arquivos de exploração dos dados foram divididos em 5:
 - [ProjetoICD_ExploracaoInicial.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_ExploracaoInicial.ipynb)
 	Notebook de explorações iniciais, para entender o aspecto geral dos dados. 	
 - [Perfil_Inscricoes_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Perfil_Inscricoes_PB.ipynb)
-	Notebook com o perfil dos inscritos no Enem, na Paraíba, de 1998 a 2019.
+	Notebook com o Relatório do Perfil dos inscritos no Enem, na Paraíba, de 1998 a 2019.
 - [PerfilDesempenho_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/PerfilDesempenho_PB.ipynb)
-	Notebook com o desempenho geral dos estudantes da Paraíba nas edições do Enem de 1998 a 2019.
+	Notebook com o Relatório do desempenho geral dos estudantes da Paraíba nas edições do Enem de 1998 a 2019.
 - [Mapa_Media_Municipio.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Mapa_Media_Municipio.ipynb)
-	Notebook com o mapa da Paraíba, mostrando a média geral por município de acordo com o padrão de coloração.
+	Notebook com o mapa da Paraíba, mostrando a média geral por município de acordo com o padrão de coloração. Projeções para a construção do APP de Acesso aos dados do Enem.
 - [Desempenho_MUNICIPIO_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Desempenho_MUNICIPIO_PB.ipynb)
-	Neste notebook, o observador pode escolher um Município e gerar todos os gráficos de perfil de Inscrição e Desempenho para o Município.
+	Neste notebook, o observador pode escolher um Município e gerar todos os gráficos de perfil de Inscrição e Desempenho para o Município. Projeções para a construção do APP de Acesso aos dados do Enem.
 - [Desempenho_ESCOLA_PB.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/Desempenho_ESCOLA_PB.ipynb)
-	Neste notebook, o observador pode escolher uma Escola e gerar todos os gráficos de perfil de Inscrição e Desempenho para a Escola.
+	Neste notebook, o observador pode escolher uma Escola e gerar todos os gráficos de perfil de Inscrição e Desempenho para a Escola. Projeções para a construção do APP de Acesso aos dados do Enem.
 
 
 
