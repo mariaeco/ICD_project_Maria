@@ -43,7 +43,12 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
   *2) Seleção e renomeação e organização de variáveis, limpeza e definição dos tipos das variáveis, e junção dos dados em um único arquivo:*
      [ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/ProjetoICD_Limpeza_e_Organizacao_Dados.ipynb)
 	
-   -Algumas organizações e limpezas relazidas: Os dados das esdições do Enem estão com nomes, tipos e níveis de variáveis despadronizados, valores digitados errado, como nomes de Escola e Município, notas também despadronizadas (alguns anos a nota vai de 0 a 100, em outros de 0 a 1000). Muitos anos constam nota 0 para alunos faltantes, portanto, mudamos para NaN, uma vez que a presença de zeros baixa a média geral das notas.
+Limpeza:
+
+   - Algumas organizações e limpezas relazidas: Os dados das esdições do Enem estão com nomes, tipos e níveis de variáveis despadronizados, valores digitados errado, como nomes de Escola e Município, notas também despadronizadas (alguns anos a nota vai de 0 a 100, em outros de 0 a 1000). Muitos anos constam nota 0 para alunos faltantes, portanto, mudamos para NaN, uma vez que a presença de zeros baixa a média geral das notas.
+  
+   - Adicionalmente, utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
+	       [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
 	
    Dois produtos finais são gerados a partir deste notebook:
    
@@ -53,8 +58,6 @@ Os dados são referentes as edições de 1998 à 2019. O microdado de cada ano c
    - o banco de dados com a média dos fatores por escola de 1998 a 2019 (Mais leve e utilizado para nossas análises nos demais notebooks):
 		[ENEM_POR_ESCOLA_PB_1998-2019.zip](https://github.com/mariaeco/Projeto_ICD_UFPB_EnemPB/blob/main/DADOS/ENEM_POR_ESCOLA_PB_1998-2019.zip)
 
-   Adicionalmente, utilizamos também o banco de dados da média geral por escola, fornecido pelo INEP, para acessar os Nomes e Códigos corretos das Escolas e Municípios, pois muitos dos  dados estão erroneamente digitados pelos participantes.
-	       [ENEM_2019_POR_ESCOLA_PB.csv](https://raw.githubusercontent.com/mariaeco/Projeto_ICD_UFPB_EnemPB/main/DADOS/ENEM_2019_POR_ESCOLA_PB.csv)
 
 
 
